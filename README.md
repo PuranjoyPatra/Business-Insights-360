@@ -16,9 +16,9 @@ AtliQ Hardwares, a leading hardware company specializing in PCs, printers, mousc
 
 ## Project Presentation:
 
-<iframe width="560" height="315" src="https://youtu.be/embed/YsVGcfzoxJg" frameborder="0" allowfullscreen></iframe>
+[![Watch Presentation](https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/bi-360-thumbnail-yt.png)](https://youtu.be/embed/YsVGcfzoxJg)
 
-<iframe width="560" height="315" src="https://app.powerbi.com/view?r=eyJrIjoiNzQ4NTQ4NmItZmFhMi00MzNkLTg1NjktNjUxNTcxNzU5OTY3IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9" frameborder="0" allowfullscreen></iframe>
+[![watch Video](https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/home.png)](https://app.powerbi.com/view?r=eyJrIjoiNzQ4NTQ4NmItZmFhMi00MzNkLTg1NjktNjUxNTcxNzU5OTY3IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
 
 ## Tools & Technique:
@@ -44,7 +44,7 @@ This Project is expected to improve the transparency and enable data driven deci
 ## Business Model:
 
 
-![P&L report by FY](./images/BM1.png)
+![Business Model](https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/BM1.png)
 
 &rarr; AtliQ is a manufacturer for Computer Hardwares and manufacture different products. These products are then sent from factory to their warehouse.
 
@@ -52,7 +52,7 @@ This Project is expected to improve the transparency and enable data driven deci
 
 &rarr; The stores whom AtliQ sell their product, are called **_Customer_** and People who consume AtliQ's products, are called **_Consumer_**. (Refer to above picture for better understanding)
 
-![P&L report by FY](./images/BM2.png)
+![Business Model - Customer](https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/BM2.png)
 
 &rarr; Stores (Platform) are mainly 2 types:
 
