@@ -83,9 +83,9 @@ Product Owner provided the features which should be implemented into the Power B
 ## Dashboard Overview:
 
 ### Home Page
-<div style="text-align: center;">
+<p align="center">
   <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/home.png" alt="Home Page" width="300">
-</div>
+</p>
 
 ### Finance Page
 
