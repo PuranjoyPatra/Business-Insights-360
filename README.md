@@ -16,7 +16,11 @@ AtliQ Hardwares, a leading hardware company specializing in PCs, printers, mousc
 
 ## Project Presentation:
 
-[![Watch Presentation](https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/bi-360-thumbnail-yt.png)](https://youtu.be/YsVGcfzoxJg)
+<html>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YsVGcfzoxJg?si=vG2KgGlsoz6TVRqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</html>
+
+[![Watch Presentation](https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/bi-360-thumbnail-yt.png)](https://www.youtube.com/watch?v=YsVGcfzoxJg)
 
 [![watch Video](https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/home.png)](https://app.powerbi.com/view?r=eyJrIjoiNzQ4NTQ4NmItZmFhMi00MzNkLTg1NjktNjUxNTcxNzU5OTY3IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
