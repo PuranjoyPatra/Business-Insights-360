@@ -16,9 +16,7 @@ AtliQ Hardwares, a leading hardware company specializing in PCs, printers, mousc
 
 ## Project Presentation:
 
-<html>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YsVGcfzoxJg?si=vG2KgGlsoz6TVRqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</html>
+
 
 [![Watch Presentation](https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/bi-360-thumbnail-yt.png)](https://www.youtube.com/watch?v=YsVGcfzoxJg)
 
@@ -77,6 +75,27 @@ This Project is expected to improve the transparency and enable data driven deci
 Product Owner provided the features which should be implemented into the Power BI Report.
 
 ![Feature Request](./images/FR.png)
+
+## Data Source:
+
+## Data Modeling
+
+## Dashboard Overview:
+
+### Home Page
+<div style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/home.png" alt="Home Page" width="300">
+</div>
+
+### Finance Page
+
+### Sales Page
+
+### Marketing
+
+### Supply Chain Page
+
+### Executive+1
 
 
 
