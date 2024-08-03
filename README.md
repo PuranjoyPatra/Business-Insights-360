@@ -145,31 +145,38 @@ That's why this Data Model is mixed of **STAR** and **Snowflake** schema.
   <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/home.png" alt="Home Page">
 </p>
 
-<p align="center"> Finance Page </p>
+<p align="center"> <strong>Finance Page </strong></p>
+<p align="center"> Get P & L statement for any customer / product / country or aggregation of the above over any time period and More. </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/finance.png" alt="Finance Page">
 </p>
 
-<p align="center"> Sales Page </p>
+<p align="center"><strong> Sales Page </strong></p>
+<p align="center"> Analyze the performance of customer(s) over key metrics like Net Sales, Gross Margin and view the same in profitability / Growth matrix. </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/sales.png" alt="Sales Page">
 </p>
 
-<p align="center"> Marketing </p>
+<p align="center"><strong> Marketing </strong></p>
+<p align="center"> Analyze the performance of product(s) over key metrics like Net Sales, Gross Margin and view the same in profitability / Growth matrix. </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/marketing.png" alt="Marketing Page">
 </p>
 
-<p align="center"> Supply Chain Page </p>
+<p align="center"><strong> Supply Chain Page </strong></p>
+<p align="center"> Get Forecast Accuracy, Net Error and risk profile for product, segment, category, customer etc
+A top level dashboard for executives consolidating top insights from all dimensions of business </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/supply-chain.png" alt="Supply Chain Page">
 </p>
 
-<p align="center"> Executive Page</p>
+<p align="center"><strong> Executive Page </strong></p>
+<p align="center"> A top level dashboard for executives consolidating top insights from all dimensions of business.
+ </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/executive.png" alt="Executive Page">
