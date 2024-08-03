@@ -84,7 +84,7 @@ Product Owner provided the features which should be implemented into the Power B
 
 ### Home Page
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/home.png" alt="Home Page" width="300">
+  <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/home.png" alt="Home Page" width="720" height="360">
 </p>
 
 ### Finance Page
