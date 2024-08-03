@@ -6,34 +6,57 @@
 AtliQ Hardwares, a leading hardware company specializing in PCs, printers, mousce, and other computer equipment  globally. Their aims to optimize sales strategies and increase net gross margins to drive business growth and profitability.
 
 ## Table of Contents:
+
+- [Project Presentation](#project-presentation)
+- [Live Dashboard](#live-dashboard)
 - [Tools & Technique used](#tools--technique)
-- [Sales Report](#sales-report)
-- [Finance Report](#finance-report)
-- [Business Inquiries](#business-inquiries)
+- [Problem Statement](#problem-statement)
+- [Goal & Purpose](#goal--purpose)
+- [Business Model](#business-model)
+- [Feature Requests](#feature-requests)
+- [Data Source](#data-source)
+- [Data Modeling](#data-modeling)
+- [Dashboard Overview](#dashboard-overview)
 - [Insights & Recommendations](#insights-and-recommendations)
-- [Technical Skills](#technical-skills)
-- [Soft Skills](#soft-skills)
+
 
 ## Project Presentation:
 
+<p align="center">
+<a href="https://youtu.be/YsVGcfzoxJg" target="_blank">
+  <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/presentation%20preview.png" alt="Presentation Preview" style="width: 70%; max-width: 360px;">
+  
+</a>
+</p>
 
+## Live Dashboard:
 
-[![Watch Presentation](https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/bi-360-thumbnail-yt.png)](https://www.youtube.com/watch?v=YsVGcfzoxJg)
-
-[![watch Video](https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/home.png)](https://app.powerbi.com/view?r=eyJrIjoiNzQ4NTQ4NmItZmFhMi00MzNkLTg1NjktNjUxNTcxNzU5OTY3IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+Checkout the live dashboard here 👉🏻 [Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzQ4NTQ4NmItZmFhMi00MzNkLTg1NjktNjUxNTcxNzU5OTY3IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
 
 ## Tools & Technique:
-- Microsoft Excel (v 2021)
-- Microsoft Power BI Desktop (v July2024)
-- Power BI Service
-- Power Query
-- Data Modeling
-- DAX (Data Analysis Expression)
-- ETL (Extract, Transformation & Load)
-- SQL
-- MySql Database
-- Dax Studio
+- Data Analysis
+   - Microsoft Excel (v 2021)
+   - Microsoft Power BI Desktop (v July2024)
+   - Power BI Service
+   - Power Query
+   - Data Modeling
+   - DAX (Data Analysis Expression)
+   - ETL (Extract, Transformation & Load)
+   - Dax Studio
+
+- Database
+   - SQL
+   - MySQL & MySQL Workbench
+
+- Project Documentation
+   - Git & Github
+   - VS Code Editor
+
+- Video Recording & Presentation
+   - OBS Studio
+   - Microsoft Clipchamp - Video Editor
+   - Microsoft Power Point
 
 ## Problem Statement:
 AtliQ Hardware is a consumer goods electronics company having operations in various countries. Their business is growing rapidly and they still rely on excel files for data analytics. Excel files are hard to consume and not effective in generating insights. Also due to the lack of effective analytics the company faced a major loss in Latin America.
@@ -45,8 +68,9 @@ This Project is expected to improve the transparency and enable data driven deci
 
 ## Business Model:
 
-
-![Business Model](https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/BM1.png)
+<p align="center">
+<img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/BM1.png" alt="Business model Preview" >
+</p>
 
 &rarr; AtliQ is a manufacturer for Computer Hardwares and manufacture different products. These products are then sent from factory to their warehouse.
 
@@ -54,7 +78,9 @@ This Project is expected to improve the transparency and enable data driven deci
 
 &rarr; The stores whom AtliQ sell their product, are called **_Customer_** and People who consume AtliQ's products, are called **_Consumer_**. (Refer to above picture for better understanding)
 
-![Business Model - Customer](https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/BM2.png)
+<p align="center">
+<img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/BM2.png" alt="Business model for Customer Preview" >
+</p>
 
 &rarr; Stores (Platform) are mainly 2 types:
 
@@ -74,29 +100,80 @@ This Project is expected to improve the transparency and enable data driven deci
 
 Product Owner provided the features which should be implemented into the Power BI Report.
 
-![Feature Request](./images/FR.png)
+<p align="center">
+<img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/FR.png" alt="Feature Request Preview" >
+</p>
 
 ## Data Source:
 
+There are mainly 2 types of Data Source are used for this project.
+
+- AtliQ Internal Database:
+<br>&rarr; Look at the below images for the database structure. There are 2 different Database which contains all _Fact_ & _Dimension_ tables.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/database-structure/database1.png" alt="Database 1 Preview" >
+</p>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/database-structure/database2.png" alt="Database 2 Preview" > </p>
+
+- External .xlsx/.csv file:
+<br>&rarr; For target data (Benchmark) and Market Share data, I have used external excel files.
+
+> [!NOTE]
+> At AtliQ Fiscal Year starts from September. For this project, I have taken dataset available from Fiscal Year 2018 to Fiscal Year 2022. Last Sales data is available till Dec 2021 (Calendar Year). Target data is only available for Fiscal Year 2022.
+
+> [!IMPORTANT]
+> Fiscal Year is referred to as Financial Year.
+
+
+
 ## Data Modeling
+Here you can check the Data Model which is used for this project. In center you can see there are _Fact_ tables which are connected with different _Dimension_ tables. Few _Dimension_ tables are also connected with another _Dimension_ tables.
+
+That's why this Data Model is mixed of **STAR** and **Snowflake** schema.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/data-modeling/data-modeling.gif" alt="Data Model Preview" >
+</p>
 
 ## Dashboard Overview:
 
-### Home Page
+<p align="center"> Home Page </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/home.png" alt="Home Page" width="720" height="360">
+  <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/home.png" alt="Home Page">
 </p>
 
-### Finance Page
+<p align="center"> Finance Page </p>
 
-### Sales Page
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/finance.png" alt="Finance Page">
+</p>
 
-### Marketing
+<p align="center"> Sales Page </p>
 
-### Supply Chain Page
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/sales.png" alt="Sales Page">
+</p>
 
-### Executive+1
+<p align="center"> Marketing </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/marketing.png" alt="Marketing Page">
+</p>
+
+<p align="center"> Supply Chain Page </p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/supply-chain.png" alt="Supply Chain Page">
+</p>
+
+<p align="center"> Executive Page</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/executive.png" alt="Executive Page">
+</p>
 
 
 ## Insights and Recommendations: 
