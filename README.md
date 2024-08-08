@@ -16,6 +16,7 @@ AtliQ Hardwares, a leading hardware company specializing in PCs, printers, mousc
 - [Feature Requests](#feature-requests)
 - [Data Source](#data-source)
 - [Data Modeling](#data-modeling)
+- [Key Metrics](#key-metrics)
 - [Dashboard Overview](#dashboard-overview)
 - [Insights & Recommendations](#insights-and-recommendations)
 
@@ -137,6 +138,22 @@ That's why this Data Model is mixed of **STAR** and **Snowflake** schema.
 <p align="center">
 <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/data-modeling/data-modeling.gif" alt="Data Model Preview" >
 </p>
+
+## Key Metrics:
+
+- Gross Sales
+- Pre & Post Invoice Deduction
+- Net Sales
+- COGS (Cost of Goods Sold)
+- Gross Margin (GM)
+- Gross Margin % (GM%)
+- Operational Expenses 
+- Net Profit (NP)
+- Net Profit % (NP%)
+- Forecast Accuracy % (FCA%)
+- Net Error
+- Absolute Error
+- Revenue Contribution % (RC%)
 
 ## Dashboard Overview:
 
