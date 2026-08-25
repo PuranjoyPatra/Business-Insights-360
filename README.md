@@ -184,8 +184,7 @@ That's why this Data Model is mixed of **STAR** and **Snowflake** schema.
 </p>
 
 <p align="center"><strong> Supply Chain Page </strong></p>
-<p align="center"> Get Forecast Accuracy, Net Error and risk profile for product, segment, category, customer etc
-A top level dashboard for executives consolidating top insights from all dimensions of business </p>
+<p align="center"> Get Forecast Accuracy, Net Error and risk profile for product, segment, category, customer etc </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/PuranjoyPatra/Business-Insights-360/master/images/supply-chain.png" alt="Supply Chain Page">
